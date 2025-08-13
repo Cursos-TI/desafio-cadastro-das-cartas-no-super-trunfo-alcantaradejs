@@ -10,7 +10,7 @@ int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
 
-    // Carta 1
+    // Pegar informações da Carta 1
     char estadoCarta1; // letra de 'A' a 'H'
     char codigoCarta1[3]; // {estado} + numero de 01 a 04
     char nomeCidadeCarta1[60]; // não pode ser nome composto
@@ -43,7 +43,7 @@ int main() {
     printf("Digite o número de pontos turísticos da cidade:\n");
     scanf("%i", &numeroPontosTuristicosCarta1);
 
-    // carta 2
+    // Pegar informações da Carta 2
     char estadoCarta2; // letra de 'A' a 'H'
     char codigoCarta2[3]; // {estado} + numero de 01 a 04
     char nomeCidadeCarta2[60]; // não pode ser nome composto
@@ -76,7 +76,7 @@ int main() {
     printf("Digite o número de pontos turísticos da cidade:\n");
     scanf("%i", &numeroPontosTuristicosCarta2);
 
-    // exibir cartas
+    //exibir informaçõse das cartas
     printf("-----------------------------------------\n");
     printf("As cartas são:\n\n");
 
