@@ -90,13 +90,13 @@ int main() {
     printf("Número de pontos turísticos: %i\n", numeroPontosTuristicosCarta1);
     
     printf("\nCarta 2\n");
-    printf("Estado: %c\n", estadoCarta1);
-    printf("Codigo da Carta: %c%s\n", estadoCarta1, codigoCarta1);
-    printf("Nome da cidade: %s\n", nomeCidadeCarta1);
-    printf("População: %i habitantes\n", populacaoCarta1);
-    printf("Área: %.2f Km²\n", areaCarta1);
-    printf("PIB: %.2f\n", PIBCarta1);
-    printf("Número de pontos turísticos: %i\n", numeroPontosTuristicosCarta1);
+    printf("Estado: %c\n", estadoCarta2);
+    printf("Codigo da Carta: %c%s\n", estadoCarta2, codigoCarta2);
+    printf("Nome da cidade: %s\n", nomeCidadeCarta2);
+    printf("População: %i habitantes\n", populacaoCarta2);
+    printf("Área: %.2f Km²\n", areaCarta2);
+    printf("PIB: %.2f\n", PIBCarta2);
+    printf("Número de pontos turísticos: %i\n", numeroPontosTuristicosCarta2);
 
     
     // Cadastro das Cartas:
