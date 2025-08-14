@@ -1,3 +1,4 @@
 # remover executaveis gerados
 CartasSuperTrunfo 
 *.exe
+/testes
