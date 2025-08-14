@@ -11,6 +11,11 @@ int main() {
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
 
+    //Banner
+    printf("+-----------------------------------+\n");
+    printf("|  Cadastro de Cartas Super Trunfo  |\n");
+    printf("+-----------------------------------+\n");
+    
     // Pegar informações da Carta 1
     char estadoCarta1; // letra de 'A' a 'H'
     char codigoCarta1[3]; // {estado} + numero de 01 a 04
@@ -20,8 +25,7 @@ int main() {
     float PIBCarta1;
     int numeroPontosTuristicosCarta1;
 
-    printf("-------------------------------------\n");
-    printf("Por favor insira as informações da Carta 1\n\n");
+    printf("\nPor favor insira as informações da Carta 1\n");
     
     printf("Digite o codigo da carta (uma letra de 'A' a 'H'):\n");
     scanf(" %c", &estadoCarta1);
@@ -46,6 +50,9 @@ int main() {
     printf("Digite o número de pontos turísticos da cidade:\n");
     scanf("%i", &numeroPontosTuristicosCarta1);
 
+    // divisor
+    printf("\n-------------------------------------------------------------------\n");
+
     // Pegar informações da Carta 2
     char estadoCarta2; // letra de 'A' a 'H'
     char codigoCarta2[3]; // {estado} + numero de 01 a 04
@@ -55,8 +62,7 @@ int main() {
     float PIBCarta2;
     int numeroPontosTuristicosCarta2;
 
-    printf("-------------------------------------\n");
-    printf("Por favor insira as informações da Carta 2\n\n");
+    printf("\nPor favor insira as informações da Carta 2\n");
     
     printf("Digite o codigo da carta (uma letra de 'A' a 'H'):\n");
     scanf(" %c", &estadoCarta2);
@@ -82,10 +88,11 @@ int main() {
     scanf("%i", &numeroPontosTuristicosCarta2);
 
     //exibir informaçõse das cartas
-    printf("-----------------------------------------\n");
-    printf("As cartas são:\n\n");
+    printf("\n+-----------------------------------+\n");
+    printf("|          Suas Cartas São          |\n");
+    printf("+-----------------------------------+\n");
 
-    printf("Carta 1\n");
+    printf("\n[ Carta 1 ]\n");
     printf("Estado: %c\n", estadoCarta1);
     printf("Codigo da Carta: %c%s\n", estadoCarta1, codigoCarta1);
     printf("Nome da cidade: %s\n", nomeCidadeCarta1);
@@ -94,7 +101,7 @@ int main() {
     printf("PIB: %.2f bilhões de reais\n", PIBCarta1);
     printf("Número de pontos turísticos: %i\n", numeroPontosTuristicosCarta1);
     
-    printf("\nCarta 2\n");
+    printf("\n[ Carta 2 ]\n");
     printf("Estado: %c\n", estadoCarta2);
     printf("Codigo da Carta: %c%s\n", estadoCarta2, codigoCarta2);
     printf("Nome da cidade: %s\n", nomeCidadeCarta2);
