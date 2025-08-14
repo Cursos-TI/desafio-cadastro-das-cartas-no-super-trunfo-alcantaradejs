@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <string.h>
 
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
@@ -13,7 +14,7 @@ int main() {
     // Pegar informações da Carta 1
     char estadoCarta1; // letra de 'A' a 'H'
     char codigoCarta1[3]; // {estado} + numero de 01 a 04
-    char nomeCidadeCarta1[60]; // não pode ser nome composto
+    char nomeCidadeCarta1[60];
     int populacaoCarta1;
     float areaCarta1; // em km²
     float PIBCarta1;
@@ -28,8 +29,10 @@ int main() {
     printf("Digite o codigo da carta (de 01 a 04):\n");
     scanf("%s", &codigoCarta1);
 
-    printf("Digite o nome da cidade (não utilize nome composto):\n");
-    scanf("%s", &nomeCidadeCarta1);
+    scanf("%c"); // remove \n do buffer
+    printf("Digite o nome da cidade:\n");
+    fgets(nomeCidadeCarta1, 60, stdin);
+    nomeCidadeCarta1[strcspn(nomeCidadeCarta1, "\n")] = 0; // remove o \n da string
 
     printf("Digite o numero de habitantes da cidade:\n");
     scanf("%i", &populacaoCarta1);
@@ -46,7 +49,7 @@ int main() {
     // Pegar informações da Carta 2
     char estadoCarta2; // letra de 'A' a 'H'
     char codigoCarta2[3]; // {estado} + numero de 01 a 04
-    char nomeCidadeCarta2[60]; // não pode ser nome composto
+    char nomeCidadeCarta2[60];
     int populacaoCarta2;
     float areaCarta2; // em km²
     float PIBCarta2;
@@ -61,8 +64,10 @@ int main() {
     printf("Digite o codigo da carta (de 01 a 04):\n");
     scanf("%s", &codigoCarta2);
 
-    printf("Digite o nome da cidade (não utilize nome composto):\n");
-    scanf("%s", &nomeCidadeCarta2);
+    scanf("%c"); // remove \n do buffer
+    printf("Digite o nome da cidade:\n");
+    fgets(nomeCidadeCarta2, 60, stdin);
+    nomeCidadeCarta2[strcspn(nomeCidadeCarta2, "\n")] = 0; // remove o \n da string
 
     printf("Digite o numero de habitantes da cidade:\n");
     scanf("%i", &populacaoCarta2);
