@@ -40,7 +40,7 @@ int main() {
     printf("Digite a área da cidade em km² (não digite 'Km²'):\n");
     scanf("%f", &areaCarta1);
 
-    printf("Digite o PIB da cidade:\n");
+    printf("Digite o PIB da cidade (em bilhões de reais):\n");
     scanf("%f", &PIBCarta1);
 
     printf("Digite o número de pontos turísticos da cidade:\n");
@@ -75,7 +75,7 @@ int main() {
     printf("Digite a área da cidade em km² (não digite 'Km²'):\n");
     scanf("%f", &areaCarta2);
 
-    printf("Digite o PIB da cidade:\n");
+    printf("Digite o PIB da cidade (em bilhões de reais):\n");
     scanf("%f", &PIBCarta2);
 
     printf("Digite o número de pontos turísticos da cidade:\n");
@@ -91,7 +91,7 @@ int main() {
     printf("Nome da cidade: %s\n", nomeCidadeCarta1);
     printf("População: %i habitantes\n", populacaoCarta1);
     printf("Área: %.2f Km²\n", areaCarta1);
-    printf("PIB: %.2f\n", PIBCarta1);
+    printf("PIB: %.2f bilhões de reais\n", PIBCarta1);
     printf("Número de pontos turísticos: %i\n", numeroPontosTuristicosCarta1);
     
     printf("\nCarta 2\n");
@@ -100,7 +100,7 @@ int main() {
     printf("Nome da cidade: %s\n", nomeCidadeCarta2);
     printf("População: %i habitantes\n", populacaoCarta2);
     printf("Área: %.2f Km²\n", areaCarta2);
-    printf("PIB: %.2f\n", PIBCarta2);
+    printf("PIB: %.2f bilhões de reais\n", PIBCarta2);
     printf("Número de pontos turísticos: %i\n", numeroPontosTuristicosCarta2);
 
     
