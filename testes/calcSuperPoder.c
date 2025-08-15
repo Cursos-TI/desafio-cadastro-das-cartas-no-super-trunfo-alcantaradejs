@@ -11,8 +11,8 @@ int main() {
     int numeroPontosTuristicosCarta1 = 50;
 
     float desidadePopulacionalCarta1 = (float) populacaoCarta1 / areaCarta1; // hab/km²
-    float PIBPerCapitaCarta1 = (float) PIBCarta1 * 1000000000 / populacaoCarta1;
-    float superPoderCarta1 =  (float) populacaoCarta1 + areaCarta1 + (PIBCarta1 * 1000000000) + numeroPontosTuristicosCarta1 + PIBPerCapitaCarta1 + (1/desidadePopulacionalCarta1);
+    float PIBPerCapitaCarta1 = (float) PIBCarta1 * 1000000000.00 / populacaoCarta1;
+    float superPoderCarta1 =  (float) populacaoCarta1 + areaCarta1 + (PIBCarta1 * 1000000000.00) + numeroPontosTuristicosCarta1 + PIBPerCapitaCarta1 + (1.00/desidadePopulacionalCarta1);
 
     // exibir carta
     printf("\n+-----------------------------------+\n");
@@ -40,8 +40,8 @@ int main() {
     int numeroPontosTuristicosCarta2 = 30;
 
     float desidadePopulacionalCarta2 = (float) populacaoCarta2 / areaCarta2; // hab/km²
-    float PIBPerCapitaCarta2 = (float) PIBCarta2 * 1000000000 / populacaoCarta2;
-    float superPoderCarta2 =  (float) populacaoCarta2 + areaCarta2 + (PIBCarta2 * 1000000000) + numeroPontosTuristicosCarta2 + PIBPerCapitaCarta2 + (1/desidadePopulacionalCarta2);
+    float PIBPerCapitaCarta2 = (float) PIBCarta2 * 1000000000.00 / populacaoCarta2;
+    float superPoderCarta2 =  (float) populacaoCarta2 + areaCarta2 + (PIBCarta2 * 1000000000.00) + numeroPontosTuristicosCarta2 + PIBPerCapitaCarta2 + (1.00/desidadePopulacionalCarta2);
 
     //exibir carta
     printf("\n+-----------------------------------+\n");
