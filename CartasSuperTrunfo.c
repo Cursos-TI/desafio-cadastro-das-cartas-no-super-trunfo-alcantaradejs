@@ -33,7 +33,7 @@ int main() {
     scanf(" %c", &estadoCarta1);
 
     printf("Digite o codigo da carta (de 01 a 04):\n");
-    scanf("%s", &codigoCarta1);
+    scanf("%s", codigoCarta1);
 
     scanf("%c"); // remove \n do buffer
     printf("Digite o nome da cidade:\n");
@@ -75,7 +75,7 @@ int main() {
     scanf(" %c", &estadoCarta2);
 
     printf("Digite o codigo da carta (de 01 a 04):\n");
-    scanf("%s", &codigoCarta2);
+    scanf("%s", codigoCarta2);
 
     scanf("%c"); // remove \n do buffer
     printf("Digite o nome da cidade:\n");
