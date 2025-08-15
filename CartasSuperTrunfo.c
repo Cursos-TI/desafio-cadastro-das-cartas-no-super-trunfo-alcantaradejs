@@ -20,7 +20,7 @@ int main() {
     char estadoCarta1; // letra de 'A' a 'H'
     char codigoCarta1[3]; // {estado} + numero de 01 a 04
     char nomeCidadeCarta1[60];
-    int populacaoCarta1;
+    unsigned long int populacaoCarta1;
     float areaCarta1; // em km²
     float PIBCarta1;
     int numeroPontosTuristicosCarta1;
@@ -60,7 +60,7 @@ int main() {
     char estadoCarta2; // letra de 'A' a 'H'
     char codigoCarta2[3]; // {estado} + numero de 01 a 04
     char nomeCidadeCarta2[60];
-    int populacaoCarta2;
+    unsigned long int populacaoCarta2;
     float areaCarta2; // em km²
     float PIBCarta2;
     int numeroPontosTuristicosCarta2;
@@ -102,7 +102,7 @@ int main() {
     printf("Estado: %c\n", estadoCarta1);
     printf("Codigo da Carta: %c%s\n", estadoCarta1, codigoCarta1);
     printf("Nome da cidade: %s\n", nomeCidadeCarta1);
-    printf("População: %i habitantes\n", populacaoCarta1);
+    printf("População: %lu habitantes\n", populacaoCarta1);
     printf("Área: %.2f Km²\n", areaCarta1);
     printf("PIB: %.2f bilhões de reais\n", PIBCarta1);
     printf("Número de pontos turísticos: %i\n", numeroPontosTuristicosCarta1);
@@ -113,7 +113,7 @@ int main() {
     printf("Estado: %c\n", estadoCarta2);
     printf("Codigo da Carta: %c%s\n", estadoCarta2, codigoCarta2);
     printf("Nome da cidade: %s\n", nomeCidadeCarta2);
-    printf("População: %i habitantes\n", populacaoCarta2);
+    printf("População: %lu habitantes\n", populacaoCarta2);
     printf("Área: %.2f Km²\n", areaCarta2);
     printf("PIB: %.2f bilhões de reais\n", PIBCarta2);
     printf("Número de pontos turísticos: %i\n", numeroPontosTuristicosCarta2);
