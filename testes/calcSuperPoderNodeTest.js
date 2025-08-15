@@ -22,7 +22,7 @@ console.log(`População: ${populacao} habitantes`);
 console.log(`Área: ${area} Km²`);
 console.log(`PIB: ${PIB} bilhões de reais`);
 console.log(`Número de pontos turísticos: ${numeroPontosTuristicos}`);
-console.log(`Densidade populacional: {desidadePopulacional}`);
+console.log(`Densidade populacional: ${desidadePopulacional}`);
 console.log(`PIB per capita: R$ ${PIBPerCapita}`);
 console.log(`Super Poder: ${superPoder} pontos`);
 
