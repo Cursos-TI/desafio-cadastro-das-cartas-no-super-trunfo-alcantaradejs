@@ -52,6 +52,8 @@ int main() {
 
     float desidadePopulacionalCarta1 = (float) populacaoCarta1 / areaCarta1; // hab/km²
     float PIBPerCapitaCarta1 = (float) PIBCarta1 * 1000000000 / populacaoCarta1;
+    float superPoderCarta1 =  (float) populacaoCarta1 + areaCarta1 + (PIBCarta1 * 1000000000) + numeroPontosTuristicosCarta1 + PIBPerCapitaCarta1 + (1/desidadePopulacionalCarta1);
+
 
     // divisor
     printf("\n-------------------------------------------------------------------\n");
@@ -92,6 +94,8 @@ int main() {
 
     float desidadePopulacionalCarta2 = (float) populacaoCarta2 / areaCarta2; // hab/km²
     float PIBPerCapitaCarta2 = (float) PIBCarta2 * 1000000000 / populacaoCarta2;
+    float superPoderCarta2 =  (float) populacaoCarta2 + areaCarta2 + (PIBCarta2 * 1000000000) + numeroPontosTuristicosCarta2 + PIBPerCapitaCarta2 + (1/desidadePopulacionalCarta2);
+
 
     //exibir informaçõse das cartas
     printf("\n+-----------------------------------+\n");
@@ -119,6 +123,20 @@ int main() {
     printf("Número de pontos turísticos: %i\n", numeroPontosTuristicosCarta2);
     printf("Densidade populacional: %.2f\n", desidadePopulacionalCarta2);
     printf("PIB per capita: R$ %.2f\n", PIBPerCapitaCarta2);
+
+    // Comparacao de cartas
+    printf("\n+-----------------------------------+\n");
+    printf("|         Carta vencedora           |\n");
+    printf("+-----------------------------------+\n\n");
+
+    printf("1 significa Carta 1 Venceu | 0 significa carta 2 Venceu");
+    printf("População: %d\n", populacaoCarta1 > populacaoCarta2);
+    printf("Área: %d\n", areaCarta1 > areaCarta2);
+    printf("PIB: %d\n", PIBCarta1 > PIBCarta2);
+    printf("Número de pontos turísticos: %d\n", numeroPontosTuristicosCarta1 > numeroPontosTuristicosCarta2);
+    printf("Densidade populacional: %d\n", desidadePopulacionalCarta1 < desidadePopulacionalCarta2);
+    printf("PIB per capita: %d\n", PIBPerCapitaCarta1 > PIBPerCapitaCarta2);
+    printf("Super Poder: %d\n", superPoderCarta1 > superPoderCarta2);
 
     printf("\n-------------------------------------\n\n"); // fim da tela
 
