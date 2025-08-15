@@ -61,7 +61,7 @@ int main() {
 
     // Comparacao de cartas
     printf("\n+-----------------------------------+\n");
-    printf("|         Carta ncedora           |\n");
+    printf("|         Carta vencedora           |\n");
     printf("+-----------------------------------+\n\n");
 
     printf("População: %d\n", populacaoCarta1 > populacaoCarta2);
