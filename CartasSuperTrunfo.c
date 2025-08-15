@@ -13,7 +13,9 @@ int main() {
 
     //Banner
     printf("+-----------------------------------+\n");
-    printf("|  Cadastro de Cartas Super Trunfo  |\n");
+    printf("|                                   |\n");
+    printf("|           Super Trunfo            |\n");
+    printf("|                                   |\n");
     printf("+-----------------------------------+\n");
     
     // Pegar informações da Carta 1
@@ -99,10 +101,9 @@ int main() {
 
     //exibir informaçõse das cartas
     printf("\n+-----------------------------------+\n");
-    printf("|          Suas Cartas São          |\n");
-    printf("+-----------------------------------+\n");
+    printf("|              Carta 1              |\n");
+    printf("+-----------------------------------+\n\n");
 
-    printf("\n[ Carta 1 ]\n");
     printf("Estado: %c\n", estadoCarta1);
     printf("Codigo da Carta: %c%s\n", estadoCarta1, codigoCarta1);
     printf("Nome da cidade: %s\n", nomeCidadeCarta1);
@@ -112,8 +113,12 @@ int main() {
     printf("Número de pontos turísticos: %i\n", numeroPontosTuristicosCarta1);
     printf("Densidade populacional: %.2f\n", desidadePopulacionalCarta1);
     printf("PIB per capita: R$ %.2f\n", PIBPerCapitaCarta1);
+    printf("Super Poder: %.2f pontos\n", superPoderCarta1);
     
-    printf("\n\n[ Carta 2 ]\n");
+    printf("\n+-----------------------------------+\n");
+    printf("|              Carta 2              |\n");
+    printf("+-----------------------------------+\n\n");
+
     printf("Estado: %c\n", estadoCarta2);
     printf("Codigo da Carta: %c%s\n", estadoCarta2, codigoCarta2);
     printf("Nome da cidade: %s\n", nomeCidadeCarta2);
@@ -123,6 +128,7 @@ int main() {
     printf("Número de pontos turísticos: %i\n", numeroPontosTuristicosCarta2);
     printf("Densidade populacional: %.2f\n", desidadePopulacionalCarta2);
     printf("PIB per capita: R$ %.2f\n", PIBPerCapitaCarta2);
+    printf("Super Poder: %.2f pontos\n", superPoderCarta2);
 
     // Comparacao de cartas
     printf("\n+-----------------------------------+\n");
