@@ -8,6 +8,8 @@
 //Teste larissa
 
 int main() {
+    char c; // limpar buffer
+
     // Sugestão: Defina variáveis separadas para cada atributo da cidade.
     // Exemplos de atributos: código da cidade, nome, população, área, PIB, número de pontos turísticos.
 
@@ -35,7 +37,7 @@ int main() {
     printf("Digite o codigo da carta (de 01 a 04):\n");
     scanf("%s", codigoCarta1);
 
-    scanf("%c"); // remove \n do buffer
+    scanf("%c", &c); // remove \n do buffer
     printf("Digite o nome da cidade:\n");
     fgets(nomeCidadeCarta1, 60, stdin);
     nomeCidadeCarta1[strcspn(nomeCidadeCarta1, "\n")] = 0; // remove o \n da string
@@ -77,7 +79,7 @@ int main() {
     printf("Digite o codigo da carta (de 01 a 04):\n");
     scanf("%s", codigoCarta2);
 
-    scanf("%c"); // remove \n do buffer
+    scanf("%c", &c); // remove \n do buffer
     printf("Digite o nome da cidade:\n");
     fgets(nomeCidadeCarta2, 60, stdin);
     nomeCidadeCarta2[strcspn(nomeCidadeCarta2, "\n")] = 0; // remove o \n da string
